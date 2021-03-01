@@ -1,0 +1,116 @@
+ 
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+ 
+}
+
+
+.chat li .chat-body p.sender
+{
+    background: #94C2ED;
+    color: #fff;
+    padding: 8px 10px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    float:left;
+    position: relative;
+    margin-top:10px;
+  
+
+}
+.chat li .chat-body p.recever
+{
+    margin-top:10px;
+    background: #86BB71;
+    color: #fff;
+    padding: 8px 10px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: right;
+    float:right;
+
+}
+.typing{
+    padding-left: 20px;
+    height: 27px;
+    background: #F2F5F8;
+}
+#typing{
+    display:none;
+}
+.alert{
+    margin-top:10px;
+}
+.typing p{
+    position: relative;
+    
+}
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+    overflow-y: auto;
+    height: 400px;
+    background: #F2F5F8;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+.smsnum{
+    color: #e00b46;
+    position: relative;
+    top: -7px;
+    background: yellow;
+    border-radius: 50%;
+    padding: 0 4px;
+    left: -9px;
+}
+#smsnum{
+    display:none;
+}
